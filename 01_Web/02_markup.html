@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            body {
+                height: 10000px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>프로그래밍 교육</h1>
+        <!-- href에 #을 붙이면 해당하는 id값의 위치로 이동한다. -->
+        <a href="#python">
+            <img src="images/python.png" alt="python" width="50px" height="50px">
+        </a>
+        <a href="#web">
+            <img src="images/htmllogo.png" alt="html" width="50px" height="50px">
+        </a>
+        <!-- href="01_index.html"과 동일! (같은 경로에 있을 경우) -->
+        <a href="./01_index.html">참고사이트</a>
+        <hr>
+        <!-- 
+            a 태크
+            - 현재창에서 이동(default) : _self
+            - 새로운 창에서 이동 : target="_bank"
+         -->
+        <a href="https://docs.python.org/" target="_bank">
+            <h2 id="python">파이썬</h2>       
+        </a>
+        <p>
+            <strong>
+                Number type
+            </strong>
+        </p>
+        <p>
+            파이썬에서 숫자형은 아래와 같이 있다
+        </p>
+        <ul>
+            <li>int</li>
+            <li>float</li>
+            <li>complex</li>
+            <li><del>sef</del></li>
+        </ul>
+        <h3>Sequence</h3>
+        <p>파이썬에서 시퀸스는 아래와 같이 있다.</p>
+        <p><Strong>시퀸스는 for문을 돌릴 수 있다.</Strong></p>
+        <ol style="list-style-type: lower-alpha">
+            <li>str</li>
+            <li>list</li>
+            <li>touple</li>
+            <li>range</li>
+        </ol>
+        <hr>
+        <!-- target 설정을 해주지 않으면 현재창이동 (기본값) -->
+        <a href="https://www.naver.com">  
+            <h2 id="web">웹</h2>
+        </a>
+        <h3>기초</h3>
+        <ul>
+            <li>HMTL</li>
+            <li>CSS</li>
+        </ul>
+        <!-- 유투브 영상 삽입! 동영상 오르쪽 클릭 -> 소스코드 복사! -->
+        <iframe width="699" height="393" src="https://www.youtube.com/embed/Q-iEfzaikBI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </body>
+</html>

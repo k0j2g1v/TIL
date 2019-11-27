@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<h3 class="text-center my-4">당신은 전생에 무엇이었을까요?</h3>
+<form action="/jobs/past_job/" method="POST">
+  {% csrf_token %}
+  <div class="form-group text-center">
+    <label for="user_name">이름을 입력해주세요...</label>
+    <input type="text" class="form-control mb-2" id="user_name" name="user_name" placeholder="Hong Gildong">
+    <button type="submit" class="btn btn-md btn-primary">Search</button>
+  </div>
+</form>
+
+<div class="text-center">
+  <img src="https://cphoto.asiae.co.kr/listimglink/1/2018040221193429570_1522671577.jpg" alt="past_job">
+</div>
+{% endblock %}

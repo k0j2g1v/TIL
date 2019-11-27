@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block body %}
+<h1 class="text-center">전생직업 APP</h1>
+<form action="{% url "jobs:past_job" %}" method="POST">
+  {% csrf_token %}
+  <label for="user_name">성함</label>
+  <input type="text" name="user_name">
+  <input type="submit">
+</form>
+
+{% endblock  %}

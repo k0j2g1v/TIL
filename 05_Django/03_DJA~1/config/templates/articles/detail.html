@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block body %}
+<h1 class="text-center">DETAIL</h1>
+<!--
+  article.image.url -> 파일주소
+  article.image -> 파일이름 (sample.png)
+-->
+<!--
+  1. 샘플 이미지(static)를 넣어두고, 이미지 없는 게시글은 샘플 이미지가 나오도록 한다.
+  2. 이미지 있는 경우에만 이미지 보여준다.
+-->
+{% if article.image %}
+  <img src="{{ article.image.url }}" alt="{{ article.image }}" style="width:450px;height:450px;">  
+{% else %}
+  <p>사진이 없어요...</p>
+  <img src="{% static 'no_image.png' %}" alt="no_image" style="width:450px;height:450px;">
+{% endif %}
+ 
+
+
+<p>글 번호: {{article.pk}}</p>
+<p>글 제목: {{article.title}} </p>
+<p>글 내용: {{article.content}}</p>
+<p>생성 시각: {{article.created_at}}</p>
+<p>수정 시각: {{article.updated_at}}</p>
+<hr>
+<a href="/articles/">[BACK]</a>
+<a href="/articles/{{ article.pk }}/edit/">[EDIT]</a>
+<form action="{% url 'articles:delete' article.pk %}" method="POST">
+  {% comment %} style="display: inline;" onclick="return confirm('진짜 삭제...?')> {% endcomment %}
+  {% csrf_token %}
+  <input type="submit" value=Delte>
+</form>
+
+<hr>
+<!-- 댓글 작성 From -->
+<form action="{% url 'articles:comments_create' article.pk %}" method="POST">
+  {% csrf_token %}
+  <input type="text" name="content">
+  <input type="submit" value="작성하기">
+</form>
+<hr>
+{{ comments|length }}개의 뎃글이 있습니다.
+{{ article.comment_set.all|length }}
+{{ comments.count }}
+{% for comment in comments %}
+ <li>
+  {{ comment.content }}
+  <form action="{% url 'articles:comments_delete' article.pk comment.pk %}" method="POST" style="display:inline;">
+    {% csrf_token %}
+  <input type="submit" value="삭제하기">
+  </form>
+ </li>
+{% empty %}
+  <p>뎃글리 없는데요...ㅠ</p>
+{% endfor %}
+
+{% endblock  %}

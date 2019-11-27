@@ -1,0 +1,32 @@
+{
+  "python.pythonPath": "venv\\Scripts\\python.exe",
+  
+  "files.associations": {
+    "**/*.html": "html",
+    "**/templates/**/*.html": "django-html",
+    "**/templates/**/*": "django-txt",
+    "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+},
+​
+"emmet.includeLanguages": {
+    "django-html": "html"
+},
+​
+"[django-html]": {
+    "editor.tabSize": 2
+},
+"python.linting.pylintArgs": [
+  "--load-plugins=pylint_django",
+  "--errors-only",
+],
+"beautify.language": {
+  "js": {
+      "type": ["javascript", "json"],
+      "filename": [".jshintrc", ".jsbeautifyrc"]
+      // "ext": ["js", "json"]
+      // ^^ to set extensions to be beautified using the javascript beautifier
+  },
+  "css": ["css", "scss"],
+  "html": ["htm", "html", "django-html"]
+},
+}

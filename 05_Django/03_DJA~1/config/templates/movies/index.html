@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<h1 class="text-center"> 영화정보  </h1>
+<a href="{% url 'movies:create' %}">[영화정보 생성]</a>
+<hr>
+{% for movie in movies %}
+<p>[{{ movie.pk}}] <a href="/movies/{{ movie.pk}}">{{ movie.title }}</a> <p> 평점 : {{movie.score}}
+<p><img src="{{movie.poster_url}}" width="100px" heitht="100">
+</p>
+<form action="" method="">
+  
+</form>
+<hr>
+{% endfor %}
+{% endblock %}
+

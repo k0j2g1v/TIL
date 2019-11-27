@@ -1,0 +1,15 @@
+<!-- config/tempates/movies/index.html -->
+<!-- 이전에 추가했었던 base.html을 상속받는다 -->
+{% extends 'base.html' %}
+
+{% block body %}
+<h1 class="text-center">Movies</h1>
+<a href="{% url 'movies:create' %}">[새 영화 등록]</a>
+<hr>
+{% for movie in movies %}
+   <p>
+    [{{ movie.pk }}] <a href="{% url 'movies:detail' movie.pk %}">{{ movie.title }}</a>
+  </p>
+<hr>
+{% endfor %}
+{% endblock  %}

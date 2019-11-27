@@ -1,0 +1,11 @@
+{% extends 'base/base.html' %}
+
+{% load static %}
+
+{% block css %}
+  <link rel="stylesheet" href="{% static 'stylesheets/sample.css' %}">
+{% endblock %}
+
+{% block body %}
+  <img src="{% static 'images/Scapy.png'%}" alt="scapy">
+{% endblock %}

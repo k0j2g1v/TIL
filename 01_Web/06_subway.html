@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>FORM</h1>
+        <br>
+        <p>주문서를 작성하여 주십시오</p>
+        <form action="">
+            이름 : <input type="text"> <br> <br>
+            날짜 : <input type="date"> <br>
+            <br>
+            <h3>1.샌드위치 선택</h3>
+            <input type="radio" name="sandwitch" value="1">에그 마요 <br>
+            <input type="radio" name="sandwitch" value="2">이탈리안 비엠티 <br>
+            <input type="radio" name="sandwitch" value="3">터키 베이컨 아보카도 <br>
+            <hr>
+            <h3>2.사이즈 선택</h3>
+            <input type="number" min="15" max="30" step="15">
+            <hr>
+            <h3>3.빵</h3>
+            <select name="bread" id="" >
+                <option value="허니">허니</option>
+                <option value="버터" disabled>버터</option>
+                <option value="바게트">바게트</option>
+            </select>
+            <hr>
+            <h3>4.야채/소스</h3>
+            <input type="checkbox" name="1" value="1">토마토 <br>
+            <input type="checkbox" name="1" value="2">오이 <br>
+            <input type="checkbox" name="1" value="3">할라피뇨 <br>
+            <input type="checkbox" name="1" value="4">핫 칠리 <br>
+            <input type="checkbox" name="1" value="5">바베큐 <br>
+            <br>
+            <input type="submit" value="submit">
+
+        </form>
+    </body>
+</html>

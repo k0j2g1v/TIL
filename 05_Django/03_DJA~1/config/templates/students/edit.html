@@ -1,0 +1,13 @@
+{% block body %}
+<h1 class="text-center">EDIT</h1>
+<form action="{% url 'students:update' student.pk %}" method="POST">
+  {% csrf_token %}
+  NAME: <input type="text" name="name" value='{{ student.name }}'><br>
+  BIRTH: <input type="date" name="birth"><br>
+  
+  </textarea><br>
+  <input type="submit">
+  </form>
+  <hr>
+  <a href="{% url 'students:detail' student.pk %}">[BACK]</a>
+{% endblock body %}

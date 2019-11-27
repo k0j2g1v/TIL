@@ -1,0 +1,68 @@
+.big-box {
+  position: relative;
+  margin: 100px auto 500px;
+  border: 5px solid black;
+  width: 500px;
+  height: 500px;
+}
+
+.small-box {
+  width: 100px;
+  height: 100px;
+  
+}
+
+#red {
+  background-color: red;
+  /* 큰 사각형 내부의 우측 하단 모서리에 빨간 사각형 위치시키기 */
+  position: relative;
+  left: 400px;
+  top: 400px;
+}
+
+#gold {
+  background-color: gold;
+  /* 브라우저의 하단에서 50px, 우측에서 50px 위치에 고정하기 */
+  left: 700px;
+  top: 700px;
+  position: relative;
+}
+
+#green {
+  background-color: green;
+  /* absolute 이용해서 큰 사각형의 가운데 위치시키기 */
+  left: 200px;  
+  position: absolute;
+}
+
+#blue {
+  background-color: blue;
+  /* relative를 사용해서 큰 사각형 좌측 상단 모서리에서 100px, 100px 띄우기 */
+  left: 100px;
+  bottom: 300px;
+  position: absolute;
+  
+}
+
+#pink {
+  background-color: pink;
+  /* 큰 사각형 내부의 좌측 상단 모서리로 옮기기*/
+  bottom: 400px;
+  position: absolute;
+}
+#purple {
+  background-color: purple;
+  /* 초록 사각형의 우측 하단 모서리에 보라 사각형 좌측 상단 모서리 맞대기 */
+  position: relative;
+  left: 100px;
+  top: 100px;
+}
+
+#orange {
+  background-color: orange;
+  /* 파란 사각형 오른쪽 위 모서리에 오렌지 사각형 좌측 하단 모서리 맞대기 */
+  position: relative;
+  left: 100px;
+  bottom: 100px;
+  
+}

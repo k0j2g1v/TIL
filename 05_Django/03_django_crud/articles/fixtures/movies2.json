@@ -1,0 +1,612 @@
+[
+    {
+        "model": "articles.article",
+        "pk": 1,
+        "fields": {
+            "title": "\uccab\ubc88\uc9f8 \uae00",
+            "content": "\uccab\ubc88\uc9f8 \ub0b4\uc6a9",
+            "created_at": "2019-10-30T07:07:46.878Z",
+            "updated_at": "2019-10-30T07:07:46.878Z"
+        }
+    },
+    {
+        "model": "articles.article",
+        "pk": 2,
+        "fields": {
+            "title": "\ub450\ubc88\uc9f8 \uae00",
+            "content": "\ub450\ubc88\uc9f8 \ub0b4\uc6a9",
+            "created_at": "2019-10-30T07:17:39.037Z",
+            "updated_at": "2019-10-30T07:17:39.037Z"
+        }
+    },
+    {
+        "model": "articles.article",
+        "pk": 3,
+        "fields": {
+            "title": "\uc548\ub155\uc548\ub155",
+            "content": "\uc548\ub155\uc548\ub155",
+            "created_at": "2019-10-30T07:31:15.568Z",
+            "updated_at": "2019-10-30T07:31:15.568Z"
+        }
+    },
+    {
+        "model": "articles.article",
+        "pk": 4,
+        "fields": {
+            "title": "\ub124\ubc88\uc9f8\uae00",
+            "content": "\ub124\ubc88\uc9f8\uae00",
+            "created_at": "2019-10-30T07:33:45.875Z",
+            "updated_at": "2019-10-30T07:33:45.875Z"
+        }
+    },
+    {
+        "model": "articles.article",
+        "pk": 5,
+        "fields": {
+            "title": "\u3147\u314b\ub09c\u314b\uc57c\u3153\ub7cc\ub11d",
+            "content": "\uceac\uc5b4\ub7b4\ucee8\uc57c\ub804",
+            "created_at": "2019-10-30T07:36:39.680Z",
+            "updated_at": "2019-10-30T07:36:39.680Z"
+        }
+    },
+    {
+        "model": "articles.article",
+        "pk": 6,
+        "fields": {
+            "title": "\u314b\u3134\u3147\u3139\u314b\u3134\u3147",
+            "content": "\u314b\u3134\u3147\u3139\u314b\u3134\u3147\u3139",
+            "created_at": "2019-10-30T07:36:56.225Z",
+            "updated_at": "2019-10-30T07:36:56.225Z"
+        }
+    },
+    {
+        "model": "articles.article",
+        "pk": 7,
+        "fields": {
+            "title": "\ub178\ucd9c\ub418\ub2c8",
+            "content": "\ub178\ucd9c\ub418\ub2c8",
+            "created_at": "2019-10-30T07:39:09.688Z",
+            "updated_at": "2019-10-30T07:39:09.689Z"
+        }
+    },
+    {
+        "model": "articles.article",
+        "pk": 8,
+        "fields": {
+            "title": "z\u3134\u3147\u3139\u314b\u3134\u3147",
+            "content": "    \u3139\u314b\u3134\u3147\u3139\r\n  dfddd",
+            "created_at": "2019-10-30T07:39:28.345Z",
+            "updated_at": "2019-10-31T01:40:53.699Z"
+        }
+    },
+    {
+        "model": "jobs.job",
+        "pk": 1,
+        "fields": {
+            "name": "\ud64d\uae38\ub3d9",
+            "past_job": "Curator"
+        }
+    },
+    {
+        "model": "jobs.job",
+        "pk": 2,
+        "fields": {
+            "name": "gildong",
+            "past_job": "Programmer, multimedia"
+        }
+    },
+    {
+        "model": "jobs.job",
+        "pk": 3,
+        "fields": {
+            "name": "gildongd",
+            "past_job": "Exhibition designer"
+        }
+    },
+    {
+        "model": "jobs.job",
+        "pk": 4,
+        "fields": {
+            "name": "gildongdt",
+            "past_job": "Engineering geologist"
+        }
+    },
+    {
+        "model": "jobs.job",
+        "pk": 5,
+        "fields": {
+            "name": "ddd",
+            "past_job": "Scientist, research (life sciences)"
+        }
+    },
+    {
+        "model": "jobs.job",
+        "pk": 6,
+        "fields": {
+            "name": "yoo",
+            "past_job": "Sports coach"
+        }
+    },
+    {
+        "model": "jobs.job",
+        "pk": 7,
+        "fields": {
+            "name": "\ud669\ubbfc\uc2b9",
+            "past_job": "Manufacturing engineer"
+        }
+    },
+    {
+        "model": "jobs.job",
+        "pk": 8,
+        "fields": {
+            "name": "\uc815\uc138\ud658",
+            "past_job": "Retail banker"
+        }
+    },
+    {
+        "model": "jobs.job",
+        "pk": 9,
+        "fields": {
+            "name": "\uc774\uc218\uc5f0",
+            "past_job": "Careers adviser"
+        }
+    },
+    {
+        "model": "jobs.job",
+        "pk": 10,
+        "fields": {
+            "name": "\uc774\ub3c4\ud604",
+            "past_job": "Surgeon"
+        }
+    },
+    {
+        "model": "jobs.job",
+        "pk": 11,
+        "fields": {
+            "name": "\ubc15\uacbd\ud76c",
+            "past_job": "Lawyer"
+        }
+    },
+    {
+        "model": "jobs.job",
+        "pk": 12,
+        "fields": {
+            "name": "\uae40\uc601\uc120",
+            "past_job": "Claims inspector/assessor"
+        }
+    },
+    {
+        "model": "jobs.job",
+        "pk": 13,
+        "fields": {
+            "name": "\ub0a8\ucc2c\uc6b0",
+            "past_job": "Sports coach"
+        }
+    },
+    {
+        "model": "jobs.job",
+        "pk": 14,
+        "fields": {
+            "name": "\uae40\ud55c\uc11d",
+            "past_job": "Financial controller"
+        }
+    },
+    {
+        "model": "jobs.job",
+        "pk": 15,
+        "fields": {
+            "name": "\uc774\uc2b9\ud76c",
+            "past_job": "Programmer, multimedia"
+        }
+    },
+    {
+        "model": "jobs.job",
+        "pk": 16,
+        "fields": {
+            "name": "\uc740\uc2b9\ucc2c",
+            "past_job": "Field trials officer"
+        }
+    },
+    {
+        "model": "jobs.job",
+        "pk": 17,
+        "fields": {
+            "name": "\uacf5\uc120\uc544",
+            "past_job": "Legal secretary"
+        }
+    },
+    {
+        "model": "jobs.job",
+        "pk": 18,
+        "fields": {
+            "name": "\ucd5c\ucc2c\uc885",
+            "past_job": "Therapist, art"
+        }
+    },
+    {
+        "model": "jobs.job",
+        "pk": 19,
+        "fields": {
+            "name": "\uae40\uac74",
+            "past_job": "Ophthalmologist"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 1,
+        "fields": {
+            "app_label": "articles",
+            "model": "article"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 2,
+        "fields": {
+            "app_label": "admin",
+            "model": "logentry"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 3,
+        "fields": {
+            "app_label": "auth",
+            "model": "permission"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 4,
+        "fields": {
+            "app_label": "auth",
+            "model": "group"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 5,
+        "fields": {
+            "app_label": "auth",
+            "model": "user"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 6,
+        "fields": {
+            "app_label": "contenttypes",
+            "model": "contenttype"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 7,
+        "fields": {
+            "app_label": "sessions",
+            "model": "session"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 8,
+        "fields": {
+            "app_label": "jobs",
+            "model": "job"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "7tin2radwglsnlm4qad2rijbe1a7an1b",
+        "fields": {
+            "session_data": "ZDVkYzE5OTMxOTIxODdiZWY4YTIwY2U2OTZmNzhhZTIzYmQ0MTZmNjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI5ODhkODUwZDU1NDgxN2I2NmU0NDY0ZGE4MzgyZTlhM2JkMDliZmI2In0=",
+            "expire_date": "2019-11-13T07:09:31.491Z"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 1,
+        "fields": {
+            "name": "Can add article",
+            "content_type": 1,
+            "codename": "add_article"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 2,
+        "fields": {
+            "name": "Can change article",
+            "content_type": 1,
+            "codename": "change_article"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 3,
+        "fields": {
+            "name": "Can delete article",
+            "content_type": 1,
+            "codename": "delete_article"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 4,
+        "fields": {
+            "name": "Can view article",
+            "content_type": 1,
+            "codename": "view_article"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 5,
+        "fields": {
+            "name": "Can add log entry",
+            "content_type": 2,
+            "codename": "add_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 6,
+        "fields": {
+            "name": "Can change log entry",
+            "content_type": 2,
+            "codename": "change_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 7,
+        "fields": {
+            "name": "Can delete log entry",
+            "content_type": 2,
+            "codename": "delete_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 8,
+        "fields": {
+            "name": "Can view log entry",
+            "content_type": 2,
+            "codename": "view_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 9,
+        "fields": {
+            "name": "Can add permission",
+            "content_type": 3,
+            "codename": "add_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 10,
+        "fields": {
+            "name": "Can change permission",
+            "content_type": 3,
+            "codename": "change_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 11,
+        "fields": {
+            "name": "Can delete permission",
+            "content_type": 3,
+            "codename": "delete_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 12,
+        "fields": {
+            "name": "Can view permission",
+            "content_type": 3,
+            "codename": "view_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 13,
+        "fields": {
+            "name": "Can add group",
+            "content_type": 4,
+            "codename": "add_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 14,
+        "fields": {
+            "name": "Can change group",
+            "content_type": 4,
+            "codename": "change_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 15,
+        "fields": {
+            "name": "Can delete group",
+            "content_type": 4,
+            "codename": "delete_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 16,
+        "fields": {
+            "name": "Can view group",
+            "content_type": 4,
+            "codename": "view_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 17,
+        "fields": {
+            "name": "Can add user",
+            "content_type": 5,
+            "codename": "add_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 18,
+        "fields": {
+            "name": "Can change user",
+            "content_type": 5,
+            "codename": "change_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 19,
+        "fields": {
+            "name": "Can delete user",
+            "content_type": 5,
+            "codename": "delete_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 20,
+        "fields": {
+            "name": "Can view user",
+            "content_type": 5,
+            "codename": "view_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 21,
+        "fields": {
+            "name": "Can add content type",
+            "content_type": 6,
+            "codename": "add_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 22,
+        "fields": {
+            "name": "Can change content type",
+            "content_type": 6,
+            "codename": "change_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 23,
+        "fields": {
+            "name": "Can delete content type",
+            "content_type": 6,
+            "codename": "delete_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 24,
+        "fields": {
+            "name": "Can view content type",
+            "content_type": 6,
+            "codename": "view_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 25,
+        "fields": {
+            "name": "Can add session",
+            "content_type": 7,
+            "codename": "add_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 26,
+        "fields": {
+            "name": "Can change session",
+            "content_type": 7,
+            "codename": "change_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 27,
+        "fields": {
+            "name": "Can delete session",
+            "content_type": 7,
+            "codename": "delete_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 28,
+        "fields": {
+            "name": "Can view session",
+            "content_type": 7,
+            "codename": "view_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 29,
+        "fields": {
+            "name": "Can add job",
+            "content_type": 8,
+            "codename": "add_job"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 30,
+        "fields": {
+            "name": "Can change job",
+            "content_type": 8,
+            "codename": "change_job"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 31,
+        "fields": {
+            "name": "Can delete job",
+            "content_type": 8,
+            "codename": "delete_job"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 32,
+        "fields": {
+            "name": "Can view job",
+            "content_type": 8,
+            "codename": "view_job"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$150000$YC7SpA8cWTC9$GlgvORHF119iKNH7HcgQdTkMVqnqnVjxyjKFngZZFrc=",
+            "last_login": "2019-10-30T07:09:31.390Z",
+            "is_superuser": true,
+            "username": "admin",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2019-10-30T07:09:10.391Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    }
+]
